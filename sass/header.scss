@@ -1,0 +1,36 @@
+.header {
+  margin: auto;
+  width: 100%;
+  z-index: 99;
+  background-color: rgba(255, 255, 255, 1);
+  height: 80px;
+  -webkit-box-shadow: 0px 0px 5px 5px gray;
+  box-shadow: 0px 0px 5px 5px gray;
+  position: fixed;
+}
+.navbar {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  h2 {
+    color: rgba(17, 21, 23, 1);
+    font-size: 24px;
+    font-weight: 800;
+    font-family: sans-serif;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    li {
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
