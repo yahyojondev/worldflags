@@ -123,11 +123,12 @@ body {
       width: 100%;
       //   max-width: 284px;
       transition: 1s;
-      height: 370px;
+      height: 400px;
       background-color: rgba(255, 255, 255, 1);
       border-radius: 5px;
       @media screen and (min-width: 420px) {
         max-width: 284px;
+        height: 370px;
       }
       img {
         padding: auto;

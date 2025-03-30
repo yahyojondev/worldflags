@@ -160,13 +160,14 @@ body {
   width: 100%;
   -webkit-transition: 1s;
   transition: 1s;
-  height: 370px;
+  height: 400px;
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
 }
 @media screen and (min-width: 420px) {
   .cards__container .cards .card {
     max-width: 284px;
+    height: 370px;
   }
 }
 .cards__container .cards .card img {
