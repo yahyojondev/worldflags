@@ -105,20 +105,30 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     row-gap: 60px;
-    @media screen and (min-width: 500px) {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    @media screen and (min-width: 800px) {
+      justify-content: space-between;
     }
+    @media screen and (min-width: 460px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    @media screen and (min-width: 750px) {
+      display: flex;
+      justify-content: space-between;
+    }
+
     .card {
       display: flex;
       flex-direction: column;
       width: 100%;
-      max-width: 284px;
+      //   max-width: 284px;
       transition: 1s;
       height: 370px;
       background-color: rgba(255, 255, 255, 1);
       border-radius: 5px;
-
+      @media screen and (min-width: 420px) {
+        max-width: 284px;
+      }
       img {
         padding: auto;
         margin: auto;
