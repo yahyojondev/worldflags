@@ -139,7 +139,7 @@ body {
     grid-template-columns: 1fr 1fr;
   }
 }
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 1000px) {
   .cards__container .cards {
     display: -webkit-box;
     display: -ms-flexbox;
