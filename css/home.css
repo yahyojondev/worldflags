@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   cursor: pointer;
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 }
 
 .container {
@@ -67,7 +68,7 @@ body {
 }
 .searching__table .searching input {
   border: none;
-  font-family: sans-serif;
+  font-family: Nunito Sans;
   font-weight: 400;
   font-size: 14px;
   color: rgb(132, 132, 132);
@@ -102,7 +103,7 @@ body {
   position: relative;
 }
 .searching__table .table p {
-  font-family: sans-serif;
+  font-family: Nunito Sans;
   font-weight: 400;
   font-size: 14px;
 }
@@ -114,7 +115,7 @@ body {
   height: 56px;
   border: none;
   outline: none;
-  font-family: sans-serif;
+  font-family: Nunito Sans;
   font-weight: 400;
   color: rgb(17, 21, 23);
   font-size: 14px;
@@ -159,7 +160,7 @@ body {
   transition: 0.5s;
 }
 .searching__table .list li {
-  font-family: sans-serif;
+  font-family: Nunito Sans;
   font-weight: 400;
   font-size: 14px;
 }
@@ -251,7 +252,7 @@ body {
 }
 .cards__container .cards .card .card__content p {
   color: rgb(17, 21, 23);
-  font-family: sans-serif;
+  font-family: Nunito Sans;
   font-weight: 700;
   font-size: 18px;
 }
@@ -267,13 +268,13 @@ body {
   gap: 5px;
 }
 .cards__container .cards .card .card__content ul li {
-  font-family: sans-serif;
+  font-family: Nunito Sans;
   font-weight: 200;
   font-size: 14px;
   color: rgb(47, 50, 52);
 }
 .cards__container .cards .card .card__content ul li span {
-  font-family: sans-serif;
+  font-family: Nunito Sans;
   font-weight: 600;
   font-size: 14px;
   color: rgb(17, 21, 23);
